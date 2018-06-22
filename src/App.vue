@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    img(src='https://gabinosantana.github.io/demo-vue-artistas/dist/logo.png')
     h1 Lista de Artistas
     select(v-model="selectedCountry")
       option(v-for="country in countries" v-bind:value="country.value") {{country.name}}
